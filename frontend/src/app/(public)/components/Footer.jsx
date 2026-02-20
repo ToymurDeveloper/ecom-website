@@ -10,7 +10,6 @@ import {
   Instagram,
   Linkedin,
   Youtube,
-  Github,
   Rss,
   BookOpen,
   ExternalLink,
@@ -86,16 +85,15 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: Facebook, name: "Facebook", href: "#", color: "hover:bg-blue-600" },
-    { icon: Twitter, name: "Twitter", href: "#", color: "hover:bg-sky-500" },
+    { icon: Youtube, name: "YouTube", href: "#", color: "hover:bg-red-600" },
     {
       icon: Instagram,
       name: "Instagram",
       href: "#",
       color: "hover:bg-pink-600",
     },
+    { icon: Twitter, name: "Twitter", href: "#", color: "hover:bg-sky-500" },
     { icon: Linkedin, name: "LinkedIn", href: "#", color: "hover:bg-blue-700" },
-    { icon: Youtube, name: "YouTube", href: "#", color: "hover:bg-red-600" },
-    { icon: Github, name: "GitHub", href: "#", color: "hover:bg-green-500" },
     { icon: Rss, name: "RSS Feed", href: "/rss", color: "hover:bg-orange-500" },
   ];
 
@@ -278,10 +276,6 @@ const Footer = () => {
               © {new Date().getFullYear()} Explorer. All rights reserved.
             </div>
             <div id="google_translate_element"></div>
-            <div className="text-gray-500 text-sm flex items-center gap-2">
-              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-              Server Status: <span className="text-green-400">Operational</span>
-            </div>
           </div>
         </div>
       </div>

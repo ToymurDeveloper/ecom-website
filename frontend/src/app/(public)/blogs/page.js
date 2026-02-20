@@ -178,7 +178,7 @@ export default function BlogsPage() {
                     d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-                <p className="text-gray-500 text-lg">No blogs found</p>
+                <p className="text-gray-500 text-lg">No products found</p>
                 {searchQuery && (
                   <p className="text-gray-400 text-sm mt-2">
                     Try searching with different keywords

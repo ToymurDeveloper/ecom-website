@@ -121,7 +121,7 @@ export default function TagPageClient({ params }) {
           <p className="text-gray-600 mt-2">
             {blogs.length > 0
               ? `Found ${blogs.length} blog${blogs.length !== 1 ? "s" : ""}`
-              : "No blogs found"}
+              : "No products found"}
           </p>
         </div>
 
@@ -162,7 +162,7 @@ export default function TagPageClient({ params }) {
                   />
                 </svg>
                 <p className="text-gray-500 text-lg">
-                  No blogs found with tag `{decodeURIComponent(tag)}`
+                  No products found with tag `{decodeURIComponent(tag)}`
                 </p>
                 <Link
                   href="/blogs"
