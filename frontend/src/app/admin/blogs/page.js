@@ -63,7 +63,7 @@ export default function BlogsPage() {
   const handleDelete = async (id, title) => {
     if (
       !window.confirm(
-        `Are you sure you want to delete "${title}"? This action cannot be undone.`
+        `Are you sure you want to delete "${title}"? This action cannot be undone.`,
       )
     ) {
       return;
@@ -205,7 +205,7 @@ export default function BlogsPage() {
           {/* Blogs Table */}
           {blogs.length === 0 ? (
             <div className="bg-white rounded-lg shadow p-8 text-center">
-              <p className="text-gray-500 mb-4">No blogs found</p>
+              <p className="text-gray-500 mb-4">No products found</p>
               <Link
                 href="/admin/blogs/create"
                 className="inline-block px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700"

@@ -138,7 +138,7 @@ export default function CategoryPageClient({ params }) {
           <p className="text-gray-600 mt-2">
             {blogs.length > 0
               ? `Found ${blogs.length} blog${blogs.length !== 1 ? "s" : ""} in this category`
-              : "No blogs found in this category"}
+              : "No products found in this category"}
           </p>
         </div>
 
@@ -179,7 +179,7 @@ export default function CategoryPageClient({ params }) {
                   />
                 </svg>
                 <p className="text-gray-500 text-lg">
-                  No blogs found in `{categoryName}` category
+                  No products found in `{categoryName}` category
                 </p>
                 <Link
                   href="/"
